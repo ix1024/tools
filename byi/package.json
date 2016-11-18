@@ -1,0 +1,35 @@
+{
+  "name": "byi",
+  "description": "The first cli",
+  "version": "1.0.0",
+  "keywords": [
+    "toolkit",
+    "cli"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "byi": "./bin/byi.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "install": "^0.8.2",
+    "jslint": "^0.10.3",
+    "minimatch": "^3.0.3",
+    "npm": "^4.0.2",
+    "npm-utils-kingwell": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
